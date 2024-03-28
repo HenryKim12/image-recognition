@@ -1,7 +1,13 @@
 import torch
-from torch import nn
-#import matplotlib.pyplot as plt
+import torchvision
 
+from torch import nn
+from torchvision import datasets
+from torchvision import transforms
+from torchvision.transforms import ToTensor
+
+import matplotlib.pyplot as plt
 
 class ImageClassifierModel(nn.Module):
-    pass
+    def __init__(self):
+        pass
